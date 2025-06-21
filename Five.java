@@ -7,9 +7,9 @@ public class Five{
         System.out.println(crypto[1]);
         
         System.out.println("");
-        System.out.println("Through For loop in Array :");
-        for (int i = 0; i < crypto.length; i++) {
-            System.out.println(crypto[i]);
+        System.out.println("Through For-Each loop in Array :");
+        for (String i : crypto) {
+            System.out.println(i);
             
         }
     }
