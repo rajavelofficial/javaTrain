@@ -6,5 +6,11 @@ public class Five{
         System.out.println(crypto[0]);
         System.out.println(crypto[1]);
         
+        System.out.println("");
+        System.out.println("Through For loop in Array :");
+        for (int i = 0; i < crypto.length; i++) {
+            System.out.println(crypto[i]);
+            
+        }
     }
 }
