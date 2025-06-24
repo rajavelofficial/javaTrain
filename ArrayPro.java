@@ -3,7 +3,7 @@ public class ArrayPro {
         int ages[]= {21, 23, 25, 34, 37, 48, 27};
 
         int length = ages.length;
-        float lowest = ages[0];
+        float lowest = ages[1];
         int sum = 0;
 
         for (int age : ages){
@@ -13,7 +13,7 @@ public class ArrayPro {
         System.out.println("The Average Age is :  " +average);
 
         for(int age : ages){
-            if(lowest>age){
+            if(age<lowest){
                 lowest = age;
             }
         }
