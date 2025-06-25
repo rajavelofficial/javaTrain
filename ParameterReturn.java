@@ -1,9 +1,10 @@
 public class ParameterReturn {
-    static int myMethod( int num ){
-        return 5 + num ;
+    static int myMethod( int x, int y ){
+        return x + y ;
     }
     public static void main(String[] args) {
-        System.out.println(" Boy is actual age is: " + myMethod(4));
+        int z = myMethod(4, 17);
+        System.out.println("Boy is Actual Age is : " + z);
     }
     
 }
