@@ -3,6 +3,9 @@ public class Multidimension {
         String[][] cryptoCoin = {{"Bitcoin", "Ethereum", "Binance"}, {"Floki", "Doge", "Game7"}};
         cryptoCoin[1][0] = "Beam";   //Floki meme token cheged to Beam token
         System.out.println(cryptoCoin [1][0]);
+
+        System.out.println(cryptoCoin.length);
+        System.out.println(cryptoCoin[1].length);
     }
     
 }
