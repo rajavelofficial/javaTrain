@@ -24,7 +24,7 @@ public class LiteralInteger {
 
         //String Literals
 
-        String text = "This is a String literal\n"
+        String text = "This is a String literal \n"
 
             + "which spans not one and not two\n"
 
