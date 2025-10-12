@@ -23,7 +23,7 @@ public class LiteralInteger {
         char unicode = '\u0035'; // The final output of the char is R15, Yamaha bike model
 
         //String Literals
-
+/* 
         String text = "This is a String literal \n"
 
             + "which spans not one and not two\n"
@@ -35,7 +35,7 @@ public class LiteralInteger {
         System.out.println(val);
         System.out.println(text);
 
-
+*/
         System.out.print(one);
         System.out.print(two);
         System.out.println(unicode); 
