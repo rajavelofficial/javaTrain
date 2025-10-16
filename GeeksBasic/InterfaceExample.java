@@ -1,4 +1,3 @@
-
 interface Animal{
     void sound();  // Abstract class
 }
