@@ -16,3 +16,9 @@ print("Value of Y is: ",y)
 x = 20
 x = "Raja"
 print(x)
+
+#Swap the values
+
+a, b = 5, 10
+a, b = b, a
+print(a, b)
