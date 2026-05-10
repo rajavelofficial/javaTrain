@@ -10,7 +10,6 @@ x, y = input("Enter two values: ").split()
 print("Value of X is: ",x)
 print("Value of Y is: ",y)
 
-"""
 #Dynamic variable
 
 x = 20
@@ -22,3 +21,11 @@ print(x)
 a, b = 5, 10
 a, b = b, a
 print(a, b)
+
+#Indentation in Python
+
+print("I have no Indentation")
+    print("I have space Indention") #This space has unexpected indentation
+
+"""
+
