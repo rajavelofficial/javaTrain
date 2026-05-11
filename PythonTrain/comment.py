@@ -4,5 +4,5 @@
 print("Python Comments") """
 
 # sample comment
-name = "Cracks AI has now online \n.\n.\n.\n.\n."
+name = "\n.\n.\n.\n.\n. Cracks AI has now online "
 print(name)
