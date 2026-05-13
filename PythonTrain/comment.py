@@ -15,3 +15,20 @@ It can be used to prevent executing any specific part of your code, while making
 # sample comment
 name = "\n.\n.\n.\n.\n. Cracks AI has now online "
 print(name)
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
+
+print("Checking completed")
+print("Program executed successfully")
+print("Thank you")
+
+a = 10
+b = 20
+c = a + b
+
+print("Sum:", c)
