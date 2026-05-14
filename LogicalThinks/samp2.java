@@ -25,5 +25,22 @@ public class Main {
         }
 
         sc.close();
+
     }
+    int total = 500;
+int discount = 50;
+int finalAmount = total - discount;
+
+System.out.println("Total Amount: " + total);
+System.out.println("Discount: " + discount);
+System.out.println("Final Amount: " + finalAmount);
+
+if (finalAmount > 400) {
+    System.out.println("Premium Customer");
+} else {
+    System.out.println("Regular Customer");
+}
+
+System.out.println("Thank You");
+System.out.println("Visit Again");
 }
