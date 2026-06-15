@@ -7,6 +7,8 @@ else:
 
 #Checking Truthy values
 
-a = [1, 2, 3]
+a = []
 if a:
     print(" The Non-Empty values of List are Called Truthy.")
+else:
+    print(" The Empty Values of List has falcy")
