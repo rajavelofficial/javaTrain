@@ -12,3 +12,16 @@ while True:
     if f == "quit":
         break
     food.append(f)
+
+    """
+    O/P:
+    
+False
+True
+False
+What food do you like? : apple
+What food do you like? : Banana
+What food do you like? : Mango
+What food do you like? : quit
+
+    """
