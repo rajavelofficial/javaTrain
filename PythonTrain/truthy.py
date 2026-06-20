@@ -5,7 +5,7 @@ if Number % 2:
 else:
     print(Number ,"is Even")
 
-#Checking Truthy values
+#Checking Falcy values
 
 a = []
 if a:
