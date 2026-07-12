@@ -3,11 +3,11 @@ a = ["Solana", "Base Chain", "BNB"]
 print(a[1])
 print(a)
 
-#In the list Storing different variable values
+#In the list Storing different type of variable
 b = ["Crypto", "Mining", 10, 20, "BNB"]
 print(b)
 
-#sungle quote also using to create the values in list
+#single quote also using to create the values in list
 c = ['Block Chain']
 print(c)
 
@@ -16,6 +16,7 @@ d = list((1, 2, 3, 'Orange', 4.53))
 print(d)
 
 e = list('ETH')
+e.append(4)
 print(e)
 
 #repeated value print inside the list using * operator
