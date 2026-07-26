@@ -29,3 +29,7 @@ print("I have no Indentation")
 
 """
 
+#String Replication
+a = "Bitcoin\n"
+
+print(a * 100, end="")
